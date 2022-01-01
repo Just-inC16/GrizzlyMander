@@ -1,0 +1,30 @@
+table {
+    font-size: medium;
+    font-size: 80%;
+    border-collapse: collapse;
+    width: 100%;
+    border-radius: 10px;
+}
+
+table td,
+table th {
+    border: 1px solid rgb(0, 0, 0);
+    padding: 8px;
+}
+
+table tr:nth-child(even) {
+    background-color: #e7e7e7;
+}
+
+table tr:hover {
+    background-color: rgb(171, 202, 245);
+}
+
+table th,
+tfoot td {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: rgb(151, 192, 255);
+    color: black;
+}

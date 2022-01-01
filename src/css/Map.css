@@ -1,0 +1,7 @@
+/*
+  DO NOT ERASE: Needed in order to specify size of leaflet map
+*/
+.leaflet-container {
+    width: 100vw;
+    height: 95vh;
+}

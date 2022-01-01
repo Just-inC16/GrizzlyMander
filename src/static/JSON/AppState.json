@@ -1,0 +1,7 @@
+{
+    "INIT": 0,
+    "CURRENT": 1,
+    "INTERESTING": 2,
+    "LOADING": 3,    
+    "MODIFIED": 4    
+}

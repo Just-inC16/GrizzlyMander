@@ -1,0 +1,41 @@
+.outerContainer {
+    padding: 10px;
+    background-color: #f4f4f4;
+    border: solid 0.5px rgb(201, 201, 201);
+    opacity: 90%;
+}
+
+.constraintName {
+    font-size: small;
+}
+
+.rangeContainer {
+    display: inline-flex;
+    gap: 5px;
+}
+
+.input {
+    width: 60px;
+    height: 30px;
+    padding: 0px;
+    border-radius: 5%;
+    border: solid 0.5px #000;
+    z-index: 1;
+}
+
+.spinner-button {
+    cursor: default;
+    z-index: 2;
+    background-color: #ccc;
+    width: 14.5px;
+    text-align: center;
+    margin: 0px;
+    pointer-events: none;
+    height: 10px;
+    line-height: 10px;
+}
+
+.minMax {
+    color: grey;
+    font-size: small;
+}

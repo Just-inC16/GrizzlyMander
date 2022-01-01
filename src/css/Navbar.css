@@ -1,0 +1,88 @@
+.Navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #333;
+    overflow: hidden;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.TitleLi {
+    display: inline;
+    border-right: 1px solid #bbb;
+}
+
+.viewBorder {
+    display: inline;
+    color: white;
+}
+
+.dropdown {
+    display: inline;
+    border-right: none;
+}
+
+.Title {
+    background-color: #333;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.Title:hover {
+    background-color: #111;
+}
+
+.Statebtn {
+    float: right;
+    background-color: rgb(95, 147, 160);
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.Statebtn:hover {
+    background-color: rgb(47, 94, 163);
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 500;
+    right: 0;
+    top: 5%;
+}
+
+.dropdown-content div {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content div:hover {
+    background-color: #f1f1f1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.export {
+    color: white;
+}

@@ -1,0 +1,5 @@
+{
+    "SELECT": 0,
+    "CONSTRAINT": 1,
+    "COMPARE": 2
+}

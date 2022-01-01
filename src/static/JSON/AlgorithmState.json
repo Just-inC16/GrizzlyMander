@@ -1,0 +1,5 @@
+{
+    "RUNNING": 0,
+    "FINISHED": 1,
+    "TERMINATED": 2
+}

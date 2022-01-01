@@ -1,0 +1,104 @@
+.tabTitle {
+    padding: 10px;
+    background-color: #f4f4f4;
+    opacity: 90%;
+}
+
+.container {
+    position: relative;
+}
+
+.panel {
+    background-color: #ffffff;
+    opacity: 100%;
+    margin-top: 5vh;
+}
+
+.panel-not-transparent {
+    background-color: #ffffff;
+    width: 100%;
+    height: 100%;
+    opacity: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.seeThru {
+    opacity: 0%;
+    background-color: #346342;
+}
+
+.states {
+    width: 100vw;
+    height: 5vh;
+    position: relative;
+}
+
+.topRightBtn {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    border: none;
+    color: white;
+    background-color: rgb(255, 116, 116);
+    text-align: center;
+    text-decoration: none;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.topRightBtn:hover {
+    background-color: red;
+    color: black;
+}
+
+.bottomLeft {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+}
+
+.leftSidebarContainer {
+    position: relative;
+}
+
+.centerContainer {
+    text-align: center;
+}
+
+.centerInner {
+    margin: 0 auto;
+}
+
+.centerBufferTable {
+    display: "flex";
+    justify-content: "center";
+    align-items: "center";
+    height: "30vh";
+}
+
+.interestingTitle {
+    padding: 10px;
+    background-color: #f4f4f4;
+    opacity: 90%;
+}
+
+.btn {
+    background-color: white;
+    color: black;
+    border: 2px solid #008cba;
+    padding: 8px 14px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 2px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #008cba;
+    color: white;
+}

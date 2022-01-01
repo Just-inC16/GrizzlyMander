@@ -1,0 +1,10 @@
+[
+    {"col1": "Population Equality",                     "col2": "0.1%"},
+    {"col1": "Deviation from Avg. District Population", "col2": "1.0%"},
+    {"col1": "# of Republican Districts",               "col2": "5"},
+    {"col1": "# of Democratic Districts",               "col2": "2"},
+    {"col1": "# of Majority-Minority Districts",        "col2": "1"},
+    {"col1": "Compactness (Polsby-Popper)",             "col2": "0.5"},
+    {"col1": "# of Split Counties",                     "col2": "2"}
+
+]
